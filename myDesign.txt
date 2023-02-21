@@ -1,0 +1,23 @@
+Title: Automated Emails
+
+Description: An app that reades a user names, email addresses, and interest from an Excel file and sends each user, news feeds about the users interest every morning. 
+
+Objecets:
+
+    (i wont even have to instantiante a ExcelFile object instance 
+    because ill be using a pandas dataframe class that is built into 
+    pandas) 
+
+    ExcelFile: 
+        filepath
+        get_data()
+
+    Email:
+        sender
+        reciever
+        body
+        send()
+
+    NewsFeed:
+        data
+        get()
